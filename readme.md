@@ -1,6 +1,6 @@
 ### 博客地址
-https://www.panyiran.com  
-[说明博客](https://www.panyiran.com)
+http://www.panyiran.com/ 
+[说明博客](http://www.panyiran.com/)
 
 #### 使用说明
 1. redux和react-redux的技术使用，请使用分支mater
