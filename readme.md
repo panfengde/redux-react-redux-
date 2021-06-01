@@ -1,5 +1,6 @@
 ### 博客地址
-[说明博客](www.panyiran.com)
+https://www.panyiran.com  
+[说明博客](https://www.panyiran.com)
 
 #### 使用说明
 1. redux和react-redux的技术使用，请使用分支mater
@@ -10,4 +11,5 @@ npm i
 npm start
 ```
 **源码在src文件夹下面**
+
 
