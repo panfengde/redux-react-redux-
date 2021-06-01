@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import _ from "./mock.js";
 import Counter from './components/Counter'
-import logger from './reduxMiddle/redux-logger'
-import thunk from './reduxMiddle/redux-thunk'
+import promiseMiddleware from 'redux-promise';
 import {
     createStore,
     applyMiddleware,
@@ -13,7 +12,7 @@ import {Provider} from "./react-redux";
 import _reducers from './reducers';
 
 const reducers = combineReducers(_reducers);
-const store = createStore(reducers, {}, applyMiddleware(thunk, logger));
+const store = createStore(reducers, {}, applyMiddleware(promiseMiddleware));
 
 ReactDOM.render(
     <Provider
